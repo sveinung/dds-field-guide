@@ -8,6 +8,8 @@ However, as more of the traditional admin functions spread to other parts of the
 
 Most of these systems have two components: a client and a server.  The client is an agent that runs on the server you want to monitor; it is typically installed on the machine by a Chef or Puppet recipe (or Ansible or Salt or whatever tool you are using).  Whether it's a daemon or a cron job, the client periodically reports back key metrics to the central server.  The server provides the reporting interface, notification systems, and other functions that are required to smoothly maintain a large number of systems.
 
+In addition to monitoring you'll also need log aggregation as your architecture gets increasingly distributed. Harnessing the power of your application logs through a log aggregator is a great way to monitor and analyze what's happening in production, as well as for tracing down problems after you've detected them.
+
 ## Tools
 
 Here are some monitoring tools you might encounter:
