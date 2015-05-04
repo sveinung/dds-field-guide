@@ -27,3 +27,5 @@ Here are some monitoring tools you might encounter:
 * [Apache Logging Services](http://logging.apache.org/) includes the popular logging libraries log4j, log4net, etc, as well as the Chainsaw viewer, that developers can use to quickly log in-application events to files, databases table, or external services.
 * [Loggly](https://www.loggly.com/) is a cloud logging service (from developers that worked on Splunk) with a generous free tier.
 * [Splunk](http://www.splunk.com/), [Zenoss](http://www.zenoss.com/) are on-site solutions designed to manage hundreds to thousands of servers. Zenoss is open source.
+* [Kibana](https://www.elastic.co/products/kibana) is an application used to visualize data from Elasticsearch. Often used together with Logstash to aggregate logs.
+* [Logstash](https://www.elastic.co/products/logstash) is a worker daemon that processes logs, indexes them, and puts them into for instance Elasticsearch or Redis.
